@@ -1,0 +1,14 @@
+/greenflag
+/print_"greenflag"
+/esconder
+
+/recibir_"greenflag"
+/wait_1second
+/go_x:0,y:0
+/mostrar
+/wait_3seconds
+/repeat_10seconds
+ /cambiar_efecto:desvanecer=25%
+/esconder
+/wait_1second
+/print_"historia comenzando"
